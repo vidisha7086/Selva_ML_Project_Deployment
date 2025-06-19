@@ -67,9 +67,9 @@ python app.py
   </li>
   <li>
     Inside the file, press <code>i</code> to enter <strong>INSERT</strong> mode, and change the line:
-    <pre><code>app.run()</code></pre>
+    <pre><code>return type from 'localhost' to '0.0.0.0' </code></pre>
     to:
-    <pre><code>app.run(host='0.0.0.0')</code></pre>
+    <pre><code>retturn type to '0.0.0.0'</code></pre>
   </li>
   <li>
     Press <code>Esc</code> and type <code>:wq</code> to save and exit.
