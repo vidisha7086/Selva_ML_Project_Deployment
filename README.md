@@ -47,4 +47,9 @@
 
 <ul>
   <li>Train the model using: <code>python create_model.py</code></li>
-  <li>
+  <li>Start the Flask server using: <code>python app.py</code></li>
+  <li>Access the running Flask app from the URL shown in the console (usually <code>http://127.0.0.1:5000</code>)</li>
+</ul>
+
+<h2>📁 Project Structure</h2>
+
