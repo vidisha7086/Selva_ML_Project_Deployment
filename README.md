@@ -1,51 +1,50 @@
-<h1>First set up git by doing below setup :</h1>
+<h1>🚀 Git Setup: Initialize and Push Your Project</h1>
 
-<p>✅ <code>git init</code><br>
-Initializes a new Git repository in your current folder by creating a hidden <code>.git/</code> directory.<br>
-🔧 Makes the folder trackable by Git.
-</p>
+<p>Follow these steps to set up Git for your project and push it to GitHub.</p>
 
-<p>✅ <code>git add .</code><br>
-Stages all files in the current directory (and subfolders) for the next commit.<br>
-📥 Adds everything to Git's "staging area" so it can be committed.
-</p>
-
-<p>✅ <code>git commit -m "Initial commit"</code><br>
-Saves a snapshot of your staged changes with a message.<br>
-💾 First version of your project saved in Git history.
-</p>
-
-<p>✅ <code>git branch -M main</code><br>
-Renames the current branch to <code>main</code>.<br>
-🌿 Standardizes your branch name (GitHub prefers <code>main</code> instead of older <code>master</code>).
-</p>
-
-<p>✅ <code>git remote add origin https://github.com/...</code><br>
-Links your local Git repo to a remote GitHub repository named <code>origin</code>.<br>
-🔗 So you can push and pull between local and GitHub.
-</p>
-
-<p>✅ <code>git push -u origin main</code><br>
-Pushes your local <code>main</code> branch to the remote <code>origin</code> (GitHub).<br>
-The <code>-u</code> sets up tracking, so you can later just use <code>git push</code> or <code>git pull</code>.<br>
-🚀 Sends your code to GitHub.
-</p>
+<table>
+  <thead>
+    <tr>
+      <th>✅ Git Command</th>
+      <th>📘 Explanation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>git init</code></td>
+      <td>Initializes a new Git repository in the current folder by creating a hidden <code>.git/</code> directory. 🔧 Makes the folder trackable by Git.</td>
+    </tr>
+    <tr>
+      <td><code>git add .</code></td>
+      <td>Stages all files in the directory (and subfolders) for the next commit. 📥 Moves files to Git’s staging area.</td>
+    </tr>
+    <tr>
+      <td><code>git commit -m "Initial commit"</code></td>
+      <td>Creates a snapshot of the staged changes with a message. 💾 First version saved in Git history.</td>
+    </tr>
+    <tr>
+      <td><code>git branch -M main</code></td>
+      <td>Renames the current branch to <code>main</code>. 🌿 GitHub prefers <code>main</code> over the older <code>master</code>.</td>
+    </tr>
+    <tr>
+      <td><code>git remote add origin &lt;your-repo-url&gt;</code></td>
+      <td>Links your local repo to a remote one on GitHub. 🔗 Enables pushing/pulling code.</td>
+    </tr>
+    <tr>
+      <td><code>git push -u origin main</code></td>
+      <td>Pushes your local <code>main</code> branch to the <code>origin</code> repo on GitHub. 🚀 Sets up upstream tracking.</td>
+    </tr>
+  </tbody>
+</table>
 
 <hr>
 
-<h1>Classification ML Model as Flask API</h1>
+<h1>📦 Classification ML Model as Flask API</h1>
 
-<ol>
-  <li>First create the ML model by running <code>python create_model.py</code>.</li>
-  <li>Then, run <code>python app.py</code> to start the server.</li>
-</ol>
+<p>This project demonstrates how to build and deploy a Machine Learning classification model via a Flask API.</p>
 
-<p>The URL to access the app will be provided in the console output.</p>
+<h2>🔧 Steps to Run</h2>
 
-
-# Classification ML Model as Flask API
-
-1. First create the ML model by running `python create_model.py`.
-2. Then, run `python app.py` to start the server. 
-
-The url to access the app will be provided at the console output.
+<ul>
+  <li>Train the model using: <code>python create_model.py</code></li>
+  <li>
